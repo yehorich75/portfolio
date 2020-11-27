@@ -1,0 +1,18 @@
+.hero {
+    &__nav {
+        width: 100%;
+        &-list {
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-item {
+            padding-left: 6rem;
+        }
+        &-link {
+            font-size: 1.6rem;
+            color: $white;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}

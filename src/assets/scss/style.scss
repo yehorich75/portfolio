@@ -1,0 +1,33 @@
+@import 'vendor/reset';
+@import 'vars';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #181818;
+  background: #2C2E35 url(../images/watermark.png) no-repeat center;
+  // overflow: hidden;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: $white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+/* Blocks */ 
+// @import 'blocks/page';
+@import 'blocks/header';
+@import 'blocks/content';
+@import 'blocks/nav';
+

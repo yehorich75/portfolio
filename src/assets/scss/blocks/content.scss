@@ -1,0 +1,76 @@
+.hero {
+    &__content {
+        padding: 0 12rem;
+    }
+    &__top-name {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12rem;
+        line-height: 1;
+        
+        letter-spacing: 0.085em;
+        text-transform: uppercase;
+
+        color: $orange;
+    }
+
+    &__title {
+        width: 100%;
+        padding: 35px 0;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        h3 {
+            margin-bottom: 3rem;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.8rem;
+            line-height: 4rem;
+            text-align: right;
+        
+            letter-spacing: 0.115em;
+            text-transform: uppercase;
+        
+            color: #fff;
+        }
+    }
+
+    &__text {
+        margin-bottom: 3rem;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        text-align: left;
+        text-indent: 10rem;
+    
+        width: 42rem;
+    
+        color: #f1f1f1;
+    }
+}
+
+.btn {
+    padding: 12px 109px;
+}
+
+.primary {
+    background-color: transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 193%;
+    border: 4px solid $orange;
+    /* identical to box height, or 193% */
+
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+
+    color: $orange;
+}
