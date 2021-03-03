@@ -10,16 +10,4 @@
 
         background-color: rgba($dark-bg, .7);
     }
-    &__contacts {
-        width: 100%;
-        margin-left: 10rem;
-        &-phone {
-            background: url("../../images/smartphone.svg") no-repeat center;
-            float: left;
-            &:before {
-                display: block;
-                content: "";
-            }
-        }
-    }
 }
