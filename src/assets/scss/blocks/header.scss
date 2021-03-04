@@ -14,11 +14,15 @@
         width: 100%;
         margin-left: 10rem;
         &-phone {
-            background: url("../../images/smartphone.svg") no-repeat center;
             float: left;
+            color: $white;
             &:before {
-                display: block;
                 content: "";
+                display: block;
+                position: absolute;
+                background: #000 url(../../images/smartphone.svg) no-repeat center;
+                width: 30px;
+                height: 30px;
             }
         }
     }
