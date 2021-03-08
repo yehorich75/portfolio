@@ -1,29 +1,13 @@
-.hero{
-    &__header {
-        display: flex;
-        align-items: center;
+.hero {
+  &__header {
+    display: flex;
+    align-items: center;
 
-        height: 9rem;
+    height: 9rem;
 
-        padding: 0 12rem;
-        margin-bottom: 1.5rem;
+    padding: 0 12rem;
+    margin-bottom: 1.5rem;
 
-        background-color: rgba($dark-bg, .7);
-    }
-    &__contacts {
-        width: 100%;
-        margin-left: 10rem;
-        &-phone {
-            float: left;
-            color: $white;
-            &:before {
-                content: "";
-                display: block;
-                position: absolute;
-                background: #000 url(../../images/smartphone.svg) no-repeat center;
-                width: 30px;
-                height: 30px;
-            }
-        }
-    }
+    background-color: rgba($dark-bg, 0.7);
+  }
 }
